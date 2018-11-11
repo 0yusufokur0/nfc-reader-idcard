@@ -12,7 +12,7 @@ Uygulamanın ana mantığı mrz içerisindeki 3 bilginin servise verilmesi ile p
 
 ## Uygulamanın yaptığı şey:
 * NFC iletişimini kurar
-* Önceden girilen pasaport numarası, doğum tarihi ve son kullanma tarihi (şu anda uygulamada kodlanmış) kullanarak pasaportun kimliğini doğrular.
+* Önceden girilen pasaport numarası, doğum tarihi ve son kullanma tarihi (belgenin geçerlilik tarihi) kullanarak pasaportun kimliğini doğrular.
 * Passport ve kimlik veri gruplarını okur - fotoğraf da dahil olmak üzere pasaportta bulunan tüm kişisel bilgiler.
 
 ```
