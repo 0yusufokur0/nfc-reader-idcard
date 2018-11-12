@@ -41,7 +41,7 @@ DG1File dg1 = (DG1File) LDSFileUtil.getLDSFile(PassportService.EF_DG1, is);
 13.	Other Travel Document Numbers
 14.	Custody Information
 
--[Daha fazla bilgi için] (https://static.javadoc.io/org.jmrtd/jmrtd/0.6.7/org/jmrtd/lds/LDSFile.html)
+- [Daha fazla bilgi için] (https://static.javadoc.io/org.jmrtd/jmrtd/0.6.7/org/jmrtd/lds/LDSFile.html)
 
 
 ```java
