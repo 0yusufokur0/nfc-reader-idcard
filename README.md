@@ -24,7 +24,82 @@ DG1File dg1 = (DG1File) LDSFileUtil.getLDSFile(PassportService.EF_DG1, is);
 
 * [Daha fazla bilgi için](http://techblog.bozho.net/electronic-machine-readable-travel-documents/)
 
-- [DG11File](https://static.javadoc.io/org.jmrtd/jmrtd/0.6.7/org/jmrtd/lds/icao/DG11File.html) - kişi bilgileri
+**EF_DG1 **
+```
+public static final short EF_DG1
+File identifier for data group 1. Data group 1 contains the MRZ.
+See Also:
+Constant Field Values
+
+```
+**EF_DG2 **
+```
+public static final short EF_DG2
+File identifier for data group 2. Data group 2 contains face image data.
+
+```
+
+**EF_DG3 **
+```
+public static final short EF_DG3
+File identifier for data group 3. Data group 3 contains finger print data.
+
+```
+
+**EF_DG4 **
+```
+public static final short EF_DG4
+File identifier for data group 4. Data group 4 contains iris data.
+
+```
+
+**EF_DG5 **
+```
+public static final short EF_DG5
+File identifier for data group 5. Data group 5 contains displayed portrait. Person Photo
+
+```
+
+**EF_DG6 **
+```
+public static final short EF_DG6
+File identifier for data group 6. Data group 6 is RFU.
+
+```
+
+**EF_DG7 **
+```
+public static final short EF_DG7
+File identifier for data group 7. Data group 7 contains displayed signature.
+
+```
+
+**EF_DG8 **
+```
+public static final short EF_DG8
+File identifier for data group 8. Data group 8 contains data features.
+
+```
+
+**EF_DG9 **
+```
+public static final short EF_DG9
+File identifier for data group 9. Data group 9 contains structure features.
+
+```
+
+**EF_DG10 **
+```
+public static final short EF_DG10
+File identifier for data group 10. Data group 10 contains substance features.
+
+```
+
+
+**EF_DG11**
+```
+public static final short EF_DG11
+File identifier for data group 11. Data group 11 contains additional personal details.
 
 1.	Name of Holder (Primary and Secondary Identifiers, in full)
 2.	Other Name(s)
@@ -40,6 +115,43 @@ DG1File dg1 = (DG1File) LDSFileUtil.getLDSFile(PassportService.EF_DG1, is);
 12.	Number of Other Valid Travel Documents
 13.	Other Travel Document Numbers
 14.	Custody Information
+
+```
+**EF_DG12 **
+```
+public static final short EF_DG12
+File identifier for data group 12. Data group 12 contains additional document details.
+
+```
+
+**EF_DG13 **
+```
+public static final short EF_DG13
+File identifier for data group 13. Data group 13 contains optional details.
+
+```
+
+**EF_DG14 **
+```
+public static final short EF_DG14
+File identifier for data group 14. Data group 14 contains security infos.
+
+```
+
+**EF_DG15 **
+```
+public static final short EF_DG15
+File identifier for data group 15. Data group 15 contains the public key used for Active Authentication.
+
+```
+
+**EF_DG165 **
+```
+public static final short EF_DG16
+File identifier for data group 16. Data group 16 contains person(s) to notify.
+
+```
+
 
 - [Daha fazla bilgi için](https://static.javadoc.io/org.jmrtd/jmrtd/0.6.7/org/jmrtd/lds/LDSFile.html) - EF_DG1.....EF_DG15 class yapıları
 
